@@ -1,6 +1,8 @@
 '''
+print("Hello World!")
+input(" what is your name?")
 \n : => next line(new line escape)
-concatenation and spacing: => print("Hello" + " " + "World")
+concatenation and spacing: => print("Hello" + " " + "World") no space in btw, merge them
 print(), input(): => print("Hello " + input(" what is your name?"))
 len: =>print(len(input("What is your name?")))
 variable naming: =>
