@@ -8,10 +8,21 @@ else:
     print("Sorry you have to grow taller beore you can ride")
 
 comparison operator=> >,,, >=, <=, ==(check equality),!=
-# = => assigning th value
+# (=)=> assigning th value
+
 modulo operator % => return remainder
+
+num = int(input("Enter a no. :"))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
 nested if else=> if, elif, else
-multiple if=> every condition is checked. 3 in if-e;se only one condition is  checked and returned
+multiple if=> every condition is checked. 3 in if-else only one condition is checked and returned
+logical operator=> and (dono true => true else false), 
+or(dono false => false else true), not(opposite/ reverse)
+
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm?"))
 bill = 0
@@ -59,17 +70,10 @@ extra_cheese = input("Do you want extra cheese? Y or N: ")
 if extra_cheese == "Y":
     bill += 1
 print(f"Your total bill is: ${bill}")
+print("Thankyou for ordering!")
 
-logical operator=> and, or, not
 
 
-coding exercise 5=>
-if bmi < 18.5:
-    print("underweight")
-elif 18.5 <= bmi < 25:
-    print("normal weight")
-else:
-    print("overweight")
 '''
 
 print('''
@@ -96,22 +100,22 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("YOur mission is to find the treasure.")
-choice1= input('YOu\'re at a crossroad, where do you want to go? Type "left" or "right" ').lower()
+choice1= input('You\'re at a crossroad, where do you want to go? Type "left" or "right"').lower()
 
 if choice1=="left":
-    choice2 = input('You \'ve come to a lake, there is an island in the middle of the lake.Type "wait" to wait for a boat. Type "swim" to swim across.\n').lower()
+    choice2 = input('You\'ve come to a lake, there is an island in the middle of the lake.Type "wait" to wait for a boat. Type "swim" to swim across.\n').lower()
     if choice2 == "wait":
         choice3 = input('You arrive at the island unharmed. There is house with 3 doors. One red, one yellow and one blue. Which colour do you choose? Choose wisely !!\n').lower()
         if choice3 == "red":
             print("It is a room full of fire. Game Over")
         elif choice3== "blue":
-                print("You enter a room of beasts. Game Over.")
+            print("You enter a room of beasts. Game Over.")
         elif choice3 == "yellow":
-                    print("You found the treasure. You Win!")
+            print("You found the treasure. You Win!")
         else:
-                        print("YOU choose a door that doesn't exist. Game Over.")
+            print("YOU choose a door that doesn't exist. Game Over.")
         
     else:
-            print("YOu got attacked by an angry trout. Game Over")
+        print("YOu got attacked by an angry trout. Game Over")
 else:
- print("You fell in to a hole. Game Over.")
+    print("You fell in to a hole. Game Over.")
