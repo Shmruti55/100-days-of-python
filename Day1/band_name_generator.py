@@ -5,12 +5,7 @@ input(" what is your name?")
 concatenation and spacing: => print("Hello" + " " + "World") no space in btw, merge them
 print(), input(): => print("Hello " + input(" what is your name?"))
 len: =>print(len(input("What is your name?")))
-variable naming: =>
-glass1 = "milk"
-glass2 = "juice"
-temp = glass1
-glass1 = glass2
-glass2 = temp
+
 '''
 
 print("Click Run to run the final project you will build")

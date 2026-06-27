@@ -18,12 +18,6 @@ height = 1.8
 is-winning = True
 print(f"Your score is = {score}, your height is {height}. Your are winning is {is_winning}")
 
-
-coding exercise 4=> BMI Calculator
-height = 1.65 
-weight = 84
-bmi = 84 / ( 1.65 ** 2 )
-
 '''
 
 print("Click Run to run the final project you will build")
