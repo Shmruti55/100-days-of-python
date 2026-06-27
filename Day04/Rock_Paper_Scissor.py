@@ -1,5 +1,5 @@
 '''
-Randomness=> Mersenne Twister
+Randomness=> module to generate psuedorandom numbers
 integer=>
 import random
 random_integer = random.randint(1, 10)
@@ -13,10 +13,10 @@ OR
 random_float = random.uniform(1,10)
 print(random_float)
 
-#head tail using random
+****head tail using random****
 import random
-random_heads_or_tails = random.randint(0,1)
-if random_heads_or_tails == 0:
+heads_or_tails = random.randint(0,1)
+if heads_or_tails == 0:
     print("Heads")
 else:
     print("Tails")
@@ -31,7 +31,6 @@ print(num_of_states)
 
 https://docs.python.org/3/library/random.html
 https://docs.python.org/3/tutorial/datastructures.html
-https://www.delish.com/food-news/a26872638/dirty-dozen-foods-list-2019/
 
 who will pay the bill?=>
 import random
@@ -43,8 +42,6 @@ fruits = ["apple", "chikoo", "guava", "mango"]
 vegetables= ["potato", "tomato", "cucumber", "spinach", "beans", "carrot"]
 dirty_dozen = [fruits, vegetables]
 print(dirty_dozen)
-
-
 '''
 print("Click Run to run the final project you will build")
 
@@ -90,6 +87,7 @@ else:
     import random
     computer_choice = random.randint(0, 2)
     print(f"Computer chose:")
+    #Whenever you want to mix text with variables, use an f-string
     print(game_images[computer_choice])
 
     # Game logic
